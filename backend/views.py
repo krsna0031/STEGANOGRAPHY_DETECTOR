@@ -315,3 +315,7 @@ class HistoryViewSet(viewsets.ReadOnlyModelViewSet):
 
 # Import models for statistics
 from django.db import models
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse("Steganography Detector Running Successfully")

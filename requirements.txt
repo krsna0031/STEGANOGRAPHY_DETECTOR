@@ -1,62 +1,7 @@
-# Core Framework
-Django==5.0.1
-djangorestframework==3.14.0
-django-cors-headers==4.3.1
-
-# Image Processing & Computer Vision
-Pillow>=10.4.0  # Updated for Python 3.14 compatibility
-opencv-python>=4.10.0.84
-scikit-image>=0.24.0
-imageio>=2.35.0
-
-# Machine Learning & Deep Learning
-tensorflow>=2.16.0,<2.20.0  # macOS ARM64 compatible for Python 3.12+
-scikit-learn>=1.5.0
-numpy>=1.26.4,<2.0.0  # TensorFlow compatibility
-scipy>=1.13.0
-
-# Feature Extraction
-PyWavelets>=1.6.0
-python-magic>=0.4.27
-
-# Steganography Tools (for testing/validation)
-# Note: stegano may not be compatible with Python 3.14
-# stegano==0.11.3
-# stepic==0.5.1
-
-# Data Analysis & Visualization
-pandas>=2.2.0
-matplotlib>=3.9.0
-seaborn>=0.13.2
-
-# Cryptography & Security
-cryptography>=43.0.0
-
-# Metadata Extraction
-ExifRead>=3.0.0
-
-# API & Documentation
-drf-spectacular>=0.27.0
-python-decouple>=3.8
-
-# File Handling
-python-multipart>=0.0.9
-aiofiles>=24.1.0
-
-# Progress & Logging
-tqdm>=4.66.1
-colorama>=0.4.6
-
-# Testing
-pytest>=8.3.0
-pytest-django>=4.8.0
-pytest-cov>=5.0.0
-
-# Development
-black>=24.0.0
-flake8>=7.0.0
-ipython>=8.26.0
-
-# Production
-gunicorn>=22.0.0
-whitenoise>=6.7.0
+asgiref==3.10.0
+Django==5.2.7
+gunicorn==26.0.0
+numpy==2.2.6
+opencv-python==4.12.0.88
+packaging==26.2
+sqlparse==0.5.3

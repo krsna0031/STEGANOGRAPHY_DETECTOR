@@ -1,38 +1,8 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-
-# Virtual Environment - NEVER commit this
 venv/
-env/
-ENV/
-.venv
-
-# Django
-*.log
-db.sqlite3
+__pycache__/
 *.pyc
-
-# Environment
+db.sqlite3
+media/
+staticfiles/
 .env
-
-# IDE
-.vscode/
-.idea/
-*.swp
 .DS_Store
-
-# Data & Models
-data/train/
-data/val/
-data/test/*.png
-data/test/*.jpg
-models/*.h5
-models/*.pkl
-*.h5
-
-# Node
-node_modules/
